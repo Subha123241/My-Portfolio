@@ -39,7 +39,7 @@ window.addEventListener('scroll', function () {
 
   document.addEventListener('DOMContentLoaded', function () {
     // Initialize EmailJS
-    emailjs.init("Zpg7YnxZxwFlIDNHo"); // Replace with your EmailJS user ID
+    emailjs.init("LOEcSRh6auDevWeU_"); // Replace with your EmailJS user ID
   
     // Form submission event listener
     document.getElementById('contact-form').addEventListener('submit', function(event) {
@@ -51,7 +51,7 @@ window.addEventListener('scroll', function () {
       const message = document.getElementById('message').value;
   
       // Send email via EmailJS
-      emailjs.send("service_x22nwl3", "template_c7w2owc", {
+      emailjs.send("service_dl5s18z", "template_65lqpn9", {
         from_name: name,
         from_email: email,
         message: message
